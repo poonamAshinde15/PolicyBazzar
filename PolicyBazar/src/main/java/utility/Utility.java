@@ -73,7 +73,7 @@ public class Utility {
 		//creating object of properties class
 		Properties prop= new Properties();
 		//creating object of FileInputStream file
-		FileInputStream myFile = new FileInputStream("C:\\Users\\Pk\\eclipse-workspace\\PolicyBazar\\propertyFileStudy.properties");
+		FileInputStream myFile = new FileInputStream("C:\\Users\\Pk\\git\\repository\\PolicyBazar\\propertyFileStudy.properties");
 		//loading prop file to fileinputstream	
 		prop.load(myFile);
 		String value = prop.getProperty(key);
